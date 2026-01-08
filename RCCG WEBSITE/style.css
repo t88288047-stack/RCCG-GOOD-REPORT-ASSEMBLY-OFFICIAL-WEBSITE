@@ -1,0 +1,122 @@
+menu a ,
+menu a  link,
+menu a  :visited,
+menu a :hover,
+menu a :active{
+    display: inline-block;
+    font-size: 45px;
+    background: red;
+    color: white;}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a8edea, #fed6e3, #ffe3b4, #c6ffdd);
+    background-blend-mode : multiply;
+    animation : gradientShift 20s ease infinite;}
+
+
+header{
+    text-align: center;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background: none;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    float: left;
+}
+header h1{
+    font-size: 100px;
+    color: white;
+    text-shadow: 3px 3px 15px rgba(255, 215n, 0, 0.8), 0 0 25px rgba(255, 255, 255, 0.6);
+    margin: 20px;
+}
+header p{
+font-size: 48px;
+margin-top: 0;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+color: white;
+}
+menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    margin: 60px 0;
+    background-color: gold;
+    text-size-adjust: 36PX ;
+}
+menu a {
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    padding: 30px 60px;
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid white;
+    transition: all 0.3s ease;
+    gap: 50px;
+}
+menu a:hover{
+background-color: white;
+color: black;
+transform: scale(1.15);
+}
+section {
+    max-width: 900px;
+    margin: auto;
+    font-size: 32px;
+    background: none;
+    padding: 30px 20px;
+    border-radius: 15px;
+    color: #333;
+    line-height: 1.8;
+}
+footer{
+    margin-top: 50px;
+    padding: 25px;
+    background-color: linear-gradient(135deg,#fceabb,#f8b500,#8e44ad,#6a1b9a);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+body.index {
+    min-height: 100vh;
+    background:
+    linear-gradient(120deg, #e6f1ff,#b3d4ff),
+    linear-gradient(240deg, #f5fbff,#ffffff),
+    linear-gradient(60deg, #fdfdfd,#9fc5ff),
+    linear-gradient(300deg, #eef6ff, #cfe3ff);
+    background-blend-mode: multiply;
+}
+body.about {
+    min-height: 100vh;
+    background: 
+    linear-gradient(135deg,#79a5df,#66eb9b,#eb88a7,#5990e2 )
+}
+body.Services {
+    min-height: 100vh;
+    background: linear-gradient(135deg,#ffb347,#ede7f6,#b3d4fF, #d1c4e9,#fed6e3);
+}
+body.Programs {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f1b139, #478eeb, #e4962a,#fa2569 #d6590b,#7115fc);
+    background-blend-mode: multiply;
+    animation: gradientShift15s ease infinite;
+}
+body.Contact {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a8edea, #e091aa, #ffe3b4, #3b9760);
+    background-blend-mode: multiply;
+    animation: gradientShift 20s ease infinite;
+}
